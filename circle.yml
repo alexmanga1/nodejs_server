@@ -5,9 +5,16 @@ test:
     - docker-compose up -d
     - mocha
 
+<<<<<<< a0f1d6733f978254bf1852dc9ba648ddbeb63698
 # Specify to execute the $DEPLOY command for the deployment
+=======
+>>>>>>> [ADD] Testing 11 different cases
 deployment:
   hub:
     branch: master
     commands:
+<<<<<<< a0f1d6733f978254bf1852dc9ba648ddbeb63698
       - $DEPLOY
+=======
+      - $DEPLOY
+>>>>>>> [ADD] Testing 11 different cases
