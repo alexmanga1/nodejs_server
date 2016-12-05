@@ -1,10 +1,14 @@
+machine:
+  services:
+    - docker
+
+deployment:
+   hub:
+      branch: dev
+      commands:
+         - $DEPLOY
+
 test:
   override:
     - docker-compose up -d
     - mocha
-
-deployment:
-  hub:
-    branch: master
-    commands:
-      - $DEPLOY
